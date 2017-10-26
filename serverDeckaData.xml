@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<arenaData>
+	<sql server="locahost" user="root" pass="local" db="arena"/>
+	<heros>
+		<hero title="Uther" attack="3" armor="35" />
+	</heros>
+	<cards><!--
+		
+		Morning Star
+		0♦ 1/1♥ Wisp
+		1♦ 2/1♥ Murloc Raider (Murloc)
+		2♦ 2/3♥ River Crocolisk (Beast)
+		2♦ 3/2♥ Bloodfen Raptor (Beast)
+		3♦ 5/1♥ Magma Rager
+		4♦ 4/5♥ Chillwin Yeti
+		4♦ 2/7♥ Oasis Snapjaw (Beast)s
+		6♦ 6/7♥ Boulderfist Ogre
+		7♦ 6/7♥ Core Hound (Beast)
+		7♦ 7/7♥ War Golem
+		
+		<card title="Arcanite Reaper" 		stats="2/3/3" 	type="weapon" 	subtype="" 			mods="" portrait="portrait.neptune.png"/>-->
+		<card title="Arcanite Reaperz" 		stats="2/3/3" 	type="weapon" 	mods=""	subtype="" 		descr="Reapz" portrait="weapon.axe.png"/>
+		
+		<card title="Totem"						stats="1/0/3"	type="minion"		targMods=""						mods="adjaura:+2/" 	descr="123123"		portrait="portrait.lamp.png"/>
+		<card title="Wisp" 						stats="1/1/1" 	type="minion" 	targMods="minion:+2/+2"	mods="shield,taunt,rattle:drawacard"	subtype="" descr="SHIELD. TAUNT. BATTLECRY: draw a card. DEATHRATTLE: draw a card" portrait="portrait.nike.png"/>
+		<card title="Champion" 				stats="1/1/1" 	type="minion"  	targMods=""						mods="stealth"	subtype="" 			descr="none" portrait="portrait.heroin.png"/>
+		<card title="Champion2" 				stats="2/2/1" 	type="minion" 	targMods=""						mods="fury"	subtype=""					descr="some" portrait="portrait.lamp.png"/>
+		<card title="Ghoul" 						stats="1/2/2" 	type="minion" 	targMods=""						mods="ghoul"		subtype=""				descr="om" portrait="portrait.splendid.png"/>
+		<card title="Juggler" 						stats="1/2/2" 	type="minion" 	targMods=""						mods="juggler"		subtype=""			descr="rty" portrait="portrait.nike.png"/>-
+		
+		<card title="Buffality" 					stats="1"		type="spell" 	 	targMods=""						mods="charMod-mino:+1/+1"	subtype="" 	descr="Deal 3 damage to all creatures" portrait="portrait.hephaestus.png"/>
+		<card title="Concentration" 			stats="1"		type="spell" 	 	targMods=""						mods="charMod-enemy:-2"	subtype=""			descr="Deal 3 damage to all creatures" portrait="portrait.artemis.png"/>
+		<card title="Equality" 					stats="1"		type="spell" 	 	targMods=""						mods="charMod-mino:/1"	subtype="" 			descr="Deal 3 damage to all creatures" portrait="portrait.neptune.png"/>
+		<card title="Hellfire" 						stats="1"		type="spell" 	 	targMods=""						mods="charMod-:-1"	subtype="" 					descr="Deal 3 damage to all creatures" portrait="portrait.artemis.png"/>
+		<card title="Soulfire" 					stats="1" 		type="spell" 		targMods="any:+1/+1"		mods="" subtype=""							descr="Give minion +1/+1" portrait="portrait.hephaestus.png"/>
+		
+		<!--<card title="Murloc Raider" 		stats="1/2/1" mods="SHIELD. CHARGE. BATTLECRY: silence. " portrait="portrait.artemis"/>
+		<card title="River Crocolisk" 			stats="2/2/3" mods="STEALTH. BATTLECRY: draw a card. DEATHRATTLE: draw a card" portrait="portrait.nike"/>
+		<card title="Bloodfen Raptor" 			stats="2/3/2" mods="SHIELD. CHARGE. BATTLECRY: silence. " portrait="portrait.hephaestus"/>
+		<card title="Magma Rager" 				stats="3/5/1" mods="SHIELD. TAUNT. BATTLECRY: draw a card. DEATHRATTLE: draw a card" portrait="portrait.splendid"/>
+		<card title="Chillwin Yeti" 				stats="4/4/5" mods="STEALTH. CHARGE. BATTLECRY: silence. " portrait="portrait.lamp"/>
+		<card title="Oasis Snapjaw" 			stats="4/2/7" mods="STEALTH. BATTLECRY: draw a card. DEATHRATTLE: draw a card" portrait="portrait.zanda"/>
+		<card title="Boulderfist Ogre" 		stats="6/6/7" mods="SHIELD. CHARGE. BATTLECRY: silence. " portrait="portrait.splendid"/>
+		<card title="Core Hound" 				stats="7/6/7" mods="SHIELD. TAUNT. BATTLECRY: draw a card. DEATHRATTLE: draw a card" portrait="portrait.hephaestus"/>
+		<card title="War Golem" 				stats="7/7/7" mods="STEALTH. CHARGE. BATTLECRY: silence. " portrait="portrait.nike"/>
+		
+		
+		Basic Taunts
+		<card title="Voidwalker" 				stats="1/1/3" mods="TAUNT" portrait="portrait.neptune.png"/>
+		<card title="Shieldbearer" 			stats="1/0/4" mods="TAUNT" portrait="portrait.neptune.png"/>
+		<card title="Goldshire Footman" 	stats="1/1/2" mods="TAUNT" portrait="portrait.neptune.png"/>
+		<card title="Frostwolf Grunt" 		stats="2/2/2" mods="TAUNT" portrait="portrait.neptune.png"/>
+		<card title="Ironfur Grizzly" 			stats="3/3/3" mods="TAUNT" portrait="portrait.neptune.png"/>
+		<card title="Silverback Patriarch" 	stats="3/1/4" mods="TAUNT" portrait="portrait.neptune.png"/>
+		<card title="Silverback Patriarch" 	stats="3/1/4" mods="TAUNT" portrait="portrait.neptune.png"/>
+		<card title="Mogu'shan Warden" 	stats="4/1/7" mods="TAUNT" portrait="portrait.neptune.png"/>
+		<card title="Sen'jin Shielmasta" 	stats="4/3/5" mods="TAUNT" portrait="portrait.neptune.png"/>
+		<card title="Booty Bay Bodyguard" 	stats="5/5/4" mods="TAUNT" portrait="portrait.neptune.png"/>
+		<card title="Lord of the Arena" 		stats="6/6/5" mods="TAUNT" portrait="portrait.neptune.png"/>
+		<card title="Lord of the Arena" 		stats="6/6/5" mods="TAUNT" portrait="portrait.neptune.png"/>
+		<card title="Ironbark Protector" 	stats="8/8/8" mods="TAUNT" portrait="portrait.neptune.png"/>
+		-->
+		
+		<!-- Basic Charges
+		<card title="Stonetusk Boar" 		stats="1/1/1" mods="CHARGE" portrait="portrait.neptune.png"/>
+		<card title="Bluegill Warrior" 			stats="2/2/1" mods="CHARGE" portrait="portrait.neptune.png"/>
+		<card title="Wolfrider" 					stats="3/3/1" mods="CHARGE" portrait="portrait.neptune.png"/>
+		<card title="Stormind Knight" 		stats="4/2/5" mods="CHARGE" portrait="portrait.neptune.png"/>
+		<card title="Kor'kron Elite" 			stats="4/4/3" mods="CHARGE" portrait="portrait.neptune.png"/>
+		<card title="Reckless Rocketeer" 	stats="6/5/2" mods="CHARGE" portrait="portrait.neptune.png"/>
+		-->
+		
+		<!-- Basic Shields
+		<card title="Argent Squire" 			stats="1/1/1" mods="SHIELD" portrait="portrait.neptune.png"/>
+		<card title="Scarlet Crusader" 		stats="3/3/1" mods="SHIELD" portrait="portrait.neptune.png"/>
+		<card title="Silvermoon Guardian" stats="4/3/3" mods="SHIELD" portrait="portrait.neptune.png"/>
+		 -->
+	</cards>
+</arenaData>
