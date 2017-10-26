@@ -17,7 +17,7 @@ import nooni.sockets.ClientEve;
 import nooni.sockets.JSONserverEvent;
 
 public class Decka {
-public static String gameUrl = "http://localhost/decka/publish.pixi/";
+public static String gameUrl = "https://decka.herokuapp/";
 //public static String gameUrl = "http://goodshop.lv/_decka/";
 public static Boolean isLocalServer = true;
 public static DeckaRoom lobby;

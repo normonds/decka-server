@@ -1,0 +1,1 @@
+web: java -cp "./target/helloworld/WEB-INF/classes/:./target/helloworld/WEB-INF/lib/*" DeckaServer
