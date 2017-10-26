@@ -107,7 +107,7 @@ public class HTTPhandler implements Handler {
         response.setStatus(HttpServletResponse.SC_OK);
         baseRequest.setHandled(true);
 		
-		response.addHeader("Access-Control-Allow-Origin", "http://"+incDomain);
+		//response.addHeader("Access-Control-Allow-Origin", "http://"+incDomain);
 		response.addHeader("Access-Control-Allow-Origin", "https://"+incDomain);
         response.getWriter().println(Socket.getServerIsOnline()?"1":"0");
 	}
