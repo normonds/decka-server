@@ -13,7 +13,7 @@ public static void main (String[] args) throws Exception {
 	Decka decka = new Decka();
 	decka.init();
 	//Decka.init();
-	int port = System.getenv("PORT");
+	int port = Integer.parseInt(System.getenv("PORT"));
 	Server server = new Server(port);
 	WebSocketHandler wsHandler = new WebSocketHandler () {
 		@Override public void configure (WebSocketServletFactory factory) {
